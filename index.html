@@ -8,7 +8,6 @@
   
   <title>Frontend Mentor | Manage landing page</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -18,6 +17,10 @@
     <header>
       <div>
         <img src="./images/logo.svg" alt="logo">
+      </div>
+      <div class="mobile__navigation__button">
+        <img class="hamburger__button" src="./images/icon-hamburger.svg" alt="hamburger">
+        <!-- <img class="close__button" src="./images/icon-close.svg" alt="close"> -->
       </div>
       <div class="navigation_link__container">
         <a href="/pricing">Price</a>
@@ -44,6 +47,7 @@
 
     <!-- second page  -->
     <div class="second_container">
+      <img class="second__bg__image" src="./images/bg-tablet-pattern.svg" alt="tablet">
       <div class="second_main__text">
         <h1>What’s different about Manage?</h1>
         <p>Manage provides all the functionality your team needs, without 
@@ -95,7 +99,7 @@
 
       <div class="third_profile">
         <!-- 1  -->
-        <div class="profile_indi">
+        <div class="profile_indi active">
           <img src="./images/avatar-anisha.png" alt="">
           <h1>Anisha Li</h1>
           <p>“Manage has supercharged our team’s workflow. The ability to maintain 
@@ -118,14 +122,15 @@
           <p>“Manage allows us to provide structure and process. It keeps us organized 
             and focused. I can’t stop recommending them to everyone I talk to!”</p>
         </div>
-      </div>
 
+      </div>
 
       <button>Get Started</button>
 
     </div>
 
     <div class="fourth_container">
+      <img class="fourth__bg__image" src="./images/bg-simplify-section-desktop.svg" alt="tablet">
       <h1>
         Simplify how your team works today.
       </h1>
@@ -173,5 +178,8 @@
     </footer>
 
   </div>
+
+  <script src="./index.js"></script>
+
 </body>
 </html>
