@@ -11,6 +11,10 @@ hamButton.addEventListener('click', () => {
     currentImage = (currentImage + 1) % buttonImages.length;
     hamButton.src = buttonImages[currentImage];
 
+
+    const overlayOn = document.querySelector('.overlay');
+    overlayOn.classList.toggle("on");
+
     console.log('gaga')
 });
 
